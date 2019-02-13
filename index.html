@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gems Swapper</title>
+	<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Candy Crush clone (simple) made in 2 days with Javascript, html/css (dom), Jquery & HammerJS.">
+	<meta name="author" content="Didier Chartrain http://github.com/copycut">
+</head>
+<body>
+
+	<div class="ui" id="ui">
+		<h1>Gems Swapper</h1>
+		<p id="score">Score: <span class="score">0</span></p>
+		<p id="combo">Combo: <span class="combo">0</span></p>
+		<p id="bestCombo">Best Combo: <span class="bestCombo">0</span></p>
+	</div>
+
+	<div class="message">
+		<h2>How many rows ?</h2>
+		<ul>
+			<li><button class="four" value="4">4*4</button></li>
+			<li><button class="six" value="6">6*6</button></li>
+			<li><button class="eight" value="8">8*8</button></li>
+			<li><button class="ten" value="10">10*10</button></li>
+			<li><button class="twelve" value="12">12*12</button></li>
+		</ul>
+	</div>
+
+	<div id="game"></div>
+
+	<footer class="footer">
+		<p>Gems Swapper - <a href="http://github.com/copycut">Didier Chartrian</a> 2014</p>
+	</footer>
+
+	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/vendor/jquery.easing.1.3.js"></script>
+	<script src="assets/js/vendor/hammer.min.js"></script>
+	<script src="assets/js/vendor/jquery.hammer-full.min.js"></script>
+	<script src="assets/js/game.js"></script>
+</body>
+</html>
